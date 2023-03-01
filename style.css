@@ -1,0 +1,136 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-color: #222222;
+    background: repeating-linear-gradient(45deg,
+            #2b2b2b 0%,
+            #2b2b2b 10%,
+            #222222 0%,
+            #222222 50%) 0 / 15px 15px;
+}
+
+header img {
+    display: block;
+    margin: 3em auto 5em auto;
+    padding-bottom: 1em;
+    border-bottom: double #ffdd1b;
+}
+
+
+
+#cnv {
+    width: 970px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #ffdd1b,
+        0 0 17.5px #ffdd1b, 0 0 20px #ffdd1b, 0 0 25px #ffdd1b
+}
+
+@keyframes neon {
+    from {}
+
+    to {}
+}
+
+canvas {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #4466ff;
+}
+
+button {
+    margin-top: 1.5em;
+    padding: 15px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: hover, transform;
+}
+
+button:hover {
+    box-shadow: 0px 5px 5px grey;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#buttons div img {
+    width: 50px;
+}
+
+#buttons {
+    margin: auto;
+    position: relative;
+    top: 32%;
+    left: 65%;
+}
+
+#x {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    filter: opacity(70%);
+}
+
+#y {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    filter: opacity(70%);
+}
+
+#a {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    filter: opacity(70%);
+}
+
+#b {
+    position: absolute;
+
+    top: 30px;
+    left: 60px;
+    filter: opacity(70%);
+}
+
+nav {
+    width: 70%;
+    margin: auto;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    list-style: none;
+}
+
+nav li {
+    margin: 5px;
+    display: flex;
+    flex-grow: 1;
+    background-color: #A0CCF2;
+}
+
+nav li a {
+    flex-grow: 1;
+    color: #5D5150;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
